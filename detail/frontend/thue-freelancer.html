@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thuê Freelancer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/vlance-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/vlance.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="js/common.min.js"></script>
+	<!-- <script type="text/javascript">
+		function ThemClass
+		{
+			$("li:active").removeClass("active");
+			$("li:focus").addClass("active");
+		}
+	</script> -->
+</head>
+<body>
+	<div class="content-section">
+		<div class="row-fluid">
+			<div class="col2-left span3">
+				<div class="layered-navigation">
+					<div class="block">
+						<div id="form">
+							<div class="control-group">
+								<div class="layered-block ln-category">
+									<h2 class="layered-heading">Ngành nghề</h2>
+									<div class="block-content subcategory">
+										<ul class="category unstyled">
+											<li class="cat-item selected">
+												<a href="">Tất cả</a>
+											</li>
+											<li class="cat-item">
+												<a href="">IT và lập trình (56277)</a>
+											</li>
+											<li class="cat-item">
+												<a href="">Thiết kế</a>
+											</li>
+											<li class="cat-item">
+												<a href="">Lĩnh vực khác</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="control-group">
+								<div class="layered-block ln-category">
+									<h2 class="layered-heading">Trạng thái</h2>
+									<div class="block-content subcategory_status">
+										<ul class="subcategory unstyled">
+											<li class="sub-item selected">
+												<a href="">
+													<i class="spanb checked">		
+													</i>
+													<div>
+														Tất cả
+													</div>
+												</a>
+											</li>
+											<li class="sub-item">
+												<a href="">
+													<i class="spanb">
+														
+													</i>
+													<div>
+														Đã xác thực
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="control-group">
+								<div class="layered-block ln-category ln-category-city showcity hidecity">
+									<h2 class="layered-heading">Thành phố</h2>
+									<div class="block-content subcategory_city">
+										<ul class="subcategory unstyled">
+											<li class="sub-item checked">
+												<a href="">
+													<i class="span1 checked"></i>
+												</a>
+												<div>Toàn quốc</div>
+											</li>
+											<li class="sub-item">
+												<a href="">
+													<i class="span1"></i>
+												</a>
+												<div>An Giang</div>
+											</li>
+											<li class="sub-item">
+												<a href="">
+													<i class="span1"></i>
+												</a>
+												<div>Hà Nội</div>
+											</li>
+										</ul>
+									</div>
+									<div id="bottomcity">
+										<span class="buttoncity"></span>
+									</div>
+								</div>
+								<script type="text/javascript">								
+								    $(document).ready(function() {
+								        $(".buttoncity").click(function() {
+								            $('.ln-category-city').toggleClass( "hidecity" );
+								//            document.getElementById("#more-comment-fd-" + jQuery(this).attr("data-id")).innerText ="Rút gọn";
+								        });
+								            });
+								</script>
+    
+
+							</div>
+
+							<div class="control-group">
+								<div class="layered-block ln-category ln-category-skill showskill hideskill">
+									<h2 class="layered-heading">Kỹ năng</h2>
+									<div class="block-content subcategory_skill">
+										<ul class="subcategory unstyled">
+											<li class="sub-item checked">
+												<a href="">
+													<i class="span1 checked"></i>
+												</a>
+												<div>Tất cả</div>
+											</li>
+											<li class="sub-item">
+												<a href="">
+													<i class="span1"></i>
+												</a>
+												<div>2D</div>
+											</li>
+											<li class="sub-item">
+												<a href="">
+													<i class="span1"></i>
+												</a>
+												<div>3D</div>
+											</li>
+											<li class="sub-item">
+												<a href="">
+													<i class="span1"></i>
+												</a>
+												<div>Bootstrap</div>
+											</li>
+										</ul>
+									</div>
+									<div class="bottomskill">
+										<span class="buttonskill"></span>
+									</div>
+								</div>
+								<script type="text/javascript">
+								    $(document).ready(function() {
+								        $(".buttonskill" ).click(function() {
+								            $('.ln-category-skill').toggleClass( "hideskill" );
+								            $('.layered-navigation').toggleClass("hide-adv");
+								        });
+								            });
+								    
+								</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col2-right span9">
+				<div id="main_content">
+					<div class="search-block row-fluid">
+						<div class="input-append span7">
+							<h1>Freelancer Việt Nam</h1>
+						</div>
+						<div class="inner-content new-job-block span12">
+							<a class="btn-blue btn-lg upper p-job" data-toggle="modal" onclick="vtrack('Click post job', {'location':'List freelancer page', 'authenticated':'true'})" href="../frontend/dang-du-an.html">Đăng việc mới</a>
+							<div class="sub-text">
+								<p>
+									Đăng việc miễn phí 100%
+									<img src="image/icon-v.png">	
+								</p>
+								<span>Thuê được ngay freelancer trong vòng 10 phút</span>
+							</div>
+						</div>
+					</div>
+					<div class="search-content">
+						<div class="search-results layered-block span12">
+							<div>
+								<div class="layered-heading results-counter">
+									<ul class="nav nav-pills">
+										<li class="active">
+											<a href="">Tất cả <b>(235588)</b></a>
+										</li>
+										<li>
+											<a href="">Đã xác thực <b>(25233)</b></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="block-content">
+								<div class="freelancer-profile featured-profile row-fluid">
+									<div class="fr-avatar span2">
+										<a href="">
+											<img src="image/tuan.jpg" width="" height="" title="">
+										</a>
+									</div>
+									<div class="fr-info span10">
+										<div>
+											<h3 class="fr-name">
+												<a href="">T. M. Tuấn</a>
+												<img src="image/icon-verify-contact.png">
+												<img src="image/verified_id.png">
+											</h3>
+										</div>
+										<div class="contact-block">
+											<a href="#pay-sms" class="btn-yellow hidejs" data-toggle="modal" data-request="{&quot;fid&quot;:227003, &quot;pid&quot;:-1}" onclick="vtrack('Click contact', {'authenticated':'false','location': 'freelancer list', 'position':'1f', 'category':'Thiết kế đồ họa', 'freelancer':'Trần Minh Tuấn', 'freelancer_id':'227003'})">
+												<i></i>
+												Liên hệ trực tiếp
+											</a>
+										</div>
+										<div class="clearfix"></div>
+										<div class="fr-title">
+											<span>Chuyên gia thiết kế đồ họa</span>
+										</div>
+										<div class="fr-summary row-fluid">
+											<div class="history span9">
+												<span class="location">Hà Nội</span>
+												<span class="separator">|</span>
+												<span class="category">Lập trình</span>
+												<span class="separator hidejs" style="display: inline;">|</span>
+												<span class="history-job hidejs" style="display: inline;">
+													<a href="">
+														<strong>213.280.000</strong>
+													</a>
+												</span>
+											</div>
+
+											<div class="rating-block">
+												<div class="rating-box">
+													<div class="rating" style="width:0%;"></div>
+												</div>
+											</div>
+										</div>
+										<div class="fr-profile row-fluid">
+											<div class="skill-list span12 row-fluid">
+												<span>
+													<a href="" title="Freelancer Wordpress"> Wordpress</a>
+													<a href="" title="Freelancer Adobe Photoshop"> Adobe Photoshop</a>
+													<a href="" title="Freelancer Adobe Illustrator"> Adobe Illustrator</a>
+													<a href="" title="Freelancer After Effect"> After Effect</a>
+													<a href="" title="Freelancer CorelDraw">CorelDraw</a>
+													<a href="" title="Freelancer Thiết kế Banner">Thiết kế Banner</a>
+													<a href="" title="Freelancer Thiết kế brochure">Thiết kế brochure</a>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="freelancer-profile featured-profile row-fluid">
+									<div class="fr-avatar span2">
+										<a href="">
+											<img src="image/tuan.jpg" width="" height="" title="">
+										</a>
+									</div>
+									<div class="fr-info span10">
+										<div>
+											<h3 class="fr-name">
+												<a href="">Đ. Q. Anh</a>
+												<img src="image/icon-verify-contact.png">
+												<img src="image/verified_id.png">
+											</h3>
+										</div>
+										<div class="contact-block">
+											<a href="" class="btn-yellow">
+												<i></i>
+												Liên hệ trực tiếp
+											</a>
+										</div>
+										<div class="clearfix"></div>
+										<div class="fr-title">
+											<span>Chuyên gia thiết kế đồ họa</span>
+										</div>
+										<div class="fr-summary row-fluid">
+											<div class="history span9">
+												<span class="location">Hà Nội</span>
+												<span class="separator">|</span>
+												<span class="category">Lập trình</span>
+												<span class="separator hidejs" style="display: inline;">|</span>
+												<span class="history-job hidejs" style="display: inline;">
+													<a href="">
+														<strong>213.280.000</strong>
+													</a>
+												</span>
+											</div>
+
+											<div class="rating-block">
+												<div class="rating-box">
+													<div class="rating" style="width:0%;"></div>
+												</div>
+											</div>
+										</div>
+										<div class="fr-profile row-fluid">
+											<div class="skill-list span12 row-fluid">
+												<span>
+													<a href="" title="Freelancer Wordpress"> Wordpress</a>
+													<a href="" title="Freelancer Adobe Photoshop"> Adobe Photoshop</a>
+													<a href="" title="Freelancer Adobe Illustrator"> Adobe Illustrator</a>
+													<a href="" title="Freelancer After Effect"> After Effect</a>
+													<a href="" title="Freelancer CorelDraw">CorelDraw</a>
+													<a href="" title="Freelancer Thiết kế Banner">Thiết kế Banner</a>
+													<a href="" title="Freelancer Thiết kế brochure">Thiết kế brochure</a>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

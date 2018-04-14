@@ -1,0 +1,240 @@
+@media (max-width: 976px) {
+	.progress-job-wrapper .progress-job{
+		width: 760px;
+	}
+}
+@media (max-width: 768px) {
+	.progress-job-wrapper .progress-job{
+		width: 620px;
+	}
+}
+@media (max-width: 768px) {
+	.progress-job ul{
+		max-height: initial;
+	}
+}
+@media (max-height: 976px) {
+	.progress-job ul li{
+		margin-left: 5px;
+		margin-right: 0px;
+	}
+}
+@media (max-width: 768px) {
+	.progress-job ul li{
+		padding-left: 20px;
+		padding-right: 5px;
+		margin: 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li .number {
+	    margin-left: 0px;
+	    margin-right: 6px;
+	    margin-top: 4px;
+	    margin-bottom: 4px;
+	}
+}
+
+@media (max-width: 768px){
+	.progress-job ul li .number {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    margin-top: 4px;
+	    margin-bottom: 4px;
+	}
+}
+
+@media (max-width: 768px){
+	.progress-job-wrapper .progress-job ul > li.active .tally {
+    display: block;
+    margin: 13px
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li .tally {
+    margin: 13px 15px 10px 0px;
+	}
+}
+@media (max-width: 768px){
+	.progress-job ul li .tally {
+    margin: 13px 25px 0px 0px;
+	}
+}
+
+@media (max-width: 639px){
+	.progress-job-wrapper .progress-job ul > li.active .tally {
+    display: block;
+	}
+}
+@media (max-width: 768px){
+	.progress-job-wrapper .progress-job ul > li.active .tally {
+    display: block;
+    margin: 13px 8px 0px 0px;
+	}
+}
+@media (max-width: 768px){
+.progress-job ul li .tally {
+    margin: 13px 25px 0px 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li .tally {
+    margin: 13px 15px 10px 0px;	
+	}
+}
+@media (max-width: 639px){
+	.progress-job-wrapper .progress-job {
+    width: 320px;
+	}
+}
+@media (max-width: 639px){
+	.job_show_freelance_job .progress-job {
+    width: 320px;
+	}
+}
+@media (max-width: 639px){
+	.progress-job-wrapper .progress-job ul > li.active .tally {
+    display: block;
+	}
+}
+@media (max-width: 768px){
+	.progress-job-wrapper .progress-job ul > li.active .tally {
+    display: block;
+    margin: 13px 8px 0px 0px;
+	}
+}
+@media (max-width: 768px){
+	.progress-job ul li .tally {
+    margin: 13px 25px 0px 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li .tally {
+    margin: 13px 15px 10px 0px;
+	}
+}
+@media (max-width: 768px){
+	.progress-job ul li {
+    padding-left: 20px;
+    padding-right: 5px;
+    margin: 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li {
+    margin-left: 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li {
+    padding-right: 0px;
+    padding-left: 5px;
+	}
+}
+@media (max-width: 639px)
+{
+	.progress-job-wrapper .progress-job ul > li.unactive {
+    display: none;
+	}
+}
+@media (max-width: 768px)
+{
+	.progress-job ul li {
+    padding-left: 20px;
+    padding-right: 5px;
+    margin: 0px;
+	}
+}
+@media (max-width: 976px){
+.progress-job ul li {
+    margin-left: 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li {
+	    padding-right: 0px;
+	    padding-left: 5px;
+	}
+}
+@media (max-width: 768px){
+	.progress-job-wrapper .progress-job ul > li.unactive .tally {
+    display: none;
+	}
+}
+@media (max-width: 768px){
+	.progress-job ul li .tally {
+    margin: 13px 25px 0px 0px;
+	}
+}
+@media (max-width: 976px){
+	.progress-job ul li .tally {
+    margin: 13px 15px 10px 0px;
+	}
+}
+@media (max-width: 639px){
+	.progress-job-wrapper .progress-job ul > li i {
+    display: block;
+    margin-right: -5px;
+	}
+}
+@media (max-width: 768px){
+	.progress-job-wrapper .progress-job ul > li i {
+    display: block;
+	}
+}
+@media (max-width: 976px){
+	.progress-job-wrapper .progress-job ul>li>i {
+    display: none;
+	}
+}
+@media (max-width: 768px){
+	.progress-job-wrapper .progress-job ul > li i {
+    display: block;
+    }
+}
+@media (max-width: 768px){
+	.progress-job ul li i {
+    margin-right: -10px;
+	}
+}
+@media (max-width: 768px){
+	.progress-job ul li i {
+    margin-right: -10px;
+	}
+}
+
+@media (max-width: 976px) {
+	.new-detail>.body-view
+	{
+		width: 100%;
+	}
+}
+@media (max-width: 976px){
+	body.one-column.job_show .body-view {
+    width: 100%;
+	}
+}
+@media (max-width: 1200px){
+	.body-view .span10 {
+	    width: 100%;
+	}
+}
+@media (max-width: 768px){
+	.job_show .container.detail .span4.job-information.offset1 {
+    background: #fff;
+    margin-left: 0px;
+    width: 320px;
+	}
+}
+@media (max-width: 639px){
+	.job_show .container.detail .span4.job-information.offset1 {
+    width: 100%;
+	}
+}
+@media (max-width: 768px){
+	.job_show .container.detail .span4.job-information.offset1 {
+    background: #fff;
+    margin-left: 0px;
+    width: 320px;	
+	}
+}
