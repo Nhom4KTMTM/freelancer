@@ -1,0 +1,369 @@
+.main_content .create-job{
+	width: 662px;
+	padding-top: 24px;
+	}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-job{
+	.new_job_title, .edit_job-title
+	{
+		margin: 0px 0px;
+		font-size: 40px;
+		font-weight: 300;
+		color: #000;
+		text-align: center;
+		text-transform: initial;
+	}
+	.post-job
+	{
+		margin: 62px auto 0px;
+		letter-spacing: -0.02px;
+		.primary-type{margin-top: 48px;}
+	}
+	.form-cread-job-btn{
+		margin-top: 20px;
+		padding: 25px 20px;
+		background-color: #F0F0F0;
+		.accept-agreement{
+			margin-left: 0px;
+			padding-left: 0px;
+		}
+		p{
+			margin-bottom: 15px;
+			font-size: 13px;
+			line-height: initial;
+		}
+		a{margin-left: 0px;}
+		#btn-submit-job{
+			padding: 12px 0px;
+			font-size: 14px;
+			font-weight: 600;
+		}
+	}
+}
+
+.content-section
+{
+	margin-top: 30px;
+	margin-bottom: 65px;
+}
+
+body.job_post h1{
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+	    font-size: 22px;
+	    letter-spacing: -0.03em;
+	    text-align: center;		
+	}
+
+.clear{
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#edit-job-form
+{
+	#vlance_jobbundle_jobtype{
+		float:none;
+	}
+	.control-group
+	{
+		position: relative;
+	}
+	.control-group.service_wrapper{margin-left: 17%;}
+}
+
+.control-group{margin-bottom: 10px;}
+
+.post-job
+{
+	.primary-type
+	{
+		.sprites-1{
+			background-position: 0px 0px;
+		}
+		.sprites-job-posting
+		{
+			background: url("../image/icon-job-posting.png") no-repeat;
+			width: 80px;
+			height: 80px;
+		}
+		h4{
+			margin: 12px 0px 6px;
+			font-size: 20px;
+			font-weight: 600;
+			letter-spacing: -0.03em;
+		}
+		label:first-child{
+			padding-top: 10px;
+			color: #000;
+		}
+		.sprites-5{background-position: 0px -400px;}
+		i{font-weight:400;color:#999;}
+	}
+	label{
+		margin-bottom: 8px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.control-group>label:first-child{padding-top:20px;}
+	.more-options
+	{
+		label.checkbox{
+			float: left;
+		    font-weight: normal;
+		    font-style: normal;
+		    text-align: justify;
+		    margin-top: 10px;
+		}
+		input[type=checkbox] {
+		    position: relative;
+		    height: initial;
+		}
+		.fa-lock{
+			color: #23c3eb;
+		    font-size: 17px;
+		    margin-top: 2px;
+		    margin-right: 7px;
+		    margin-left: 9px;
+		    float: left;
+		}
+	}
+	label.is-private{padding-left: 20px;}
+	label.is-private input{margin-left: -20px; float: left;}
+	label.is-private label{
+		width: 498px;
+	    font-size: 14px;
+	    font-weight: 400;
+	    display: inline-block;
+	}
+
+	.control-group.primary-type label:first-child{padding-top: 10px;
+		color: #000;
+	}
+}
+
+.create-job 
+{
+	.post-job{margin-top: 48px;}
+	.more-options
+	{
+		primary-type{margin-top: 42px;}
+	}
+}
+
+label{cursor: default;}
+select {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+optgroup {
+    font-weight: bolder;
+    display: block;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.post-job select, .post-job input {
+    font-size: 14px;
+    height: 42px;
+}
+
+.create-job .post-job textarea#vlance_jobbundle_jobtype_description {
+    height: 130px;
+}
+
+.fileupload_wrapper {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.fileupload_wrapper a.addupload {
+    float: left;
+}
+.clear{margin: 0; padding: 0; clear: both;}
+
+.form-add-skill {
+    width: 98.5%;
+    height: auto;
+    padding: 9px 2px 8px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    float: left;
+    margin-bottom: 10px;
+    cursor: text;
+    background: #fff;
+    .inner-skill{padding: 0 8px;}
+}
+
+.post-job .form-add-skill input[type=text] {
+    height: initial;
+    margin-bottom: 0;
+}
+input[type="text"].tm-input {
+    margin-bottom: 5px;
+    vertical-align: middle!important;
+}
+.form-add-skill input[type=text] {
+    float: left;
+    padding: 1px 0 2px;
+    margin-bottom: 0px;
+}
+
+.form-add-skill input:focus {
+    outline: none;
+    outline: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.form-add-skill input {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+#edit-job-form .control-group .datepicker-widget.input-append {
+    display: inherit;
+}
+
+.datepicker-widget.input-append .add-on {
+    padding: 7px 11px 9px;
+    line-height: 21px;
+}
+
+.post-job .wrapper .add-on {
+    width: 32px;
+    height: 17px;
+}
+
+.append-white .input-append .add-on {
+    color: #999;
+    background: #fff;
+    position: absolute;
+    margin-left: -55px;
+    border: 0;
+    margin-top: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.i32 {
+    background: url(../image/icons32.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.i32-calendar {
+    background-position: -32px -30px;
+}
+
+.datepicker-widget.input-append .add-on {
+    padding: 7px 11px 9px;
+    line-height: 21px;
+}
+
+.fa-lock:before{content: "\f023";}
+
+
+
+.btn-primary {
+    color: #333333;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+    background-color: #ffe222;
+    background-image: -moz-linear-gradient(top, #ffe222, #ffcc00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe222), to(#ffcc00));
+    background-image: -webkit-linear-gradient(top, #ffe222, #ffcc00);
+    background-image: -o-linear-gradient(top, #ffe222, #ffcc00);
+    background-image: linear-gradient(to bottom, #ffe222, #ffcc00);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    border-color: #ffcc00 #ffcc00 #ffba10;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #ffcc00;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-large {width: 148px;}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    color: #353535;
+    background-color: #ffcc00;
+    background-position: 0 -15px;
+}
+
+.main_content{background: #fafafa; width: 100%;}
+
+.container h1, .container h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page-tabs {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    ul {
+	    list-style: none;
+	    margin: 0px;
+	    float: left;
+	    padding: 0;
+	}
+	li {
+		float: left;
+	    margin-top: 1px;
+	}
+	li.active {
+	    margin-top: 0px;
+	}
+	li.active {
+	    font-weight: 700;
+    	background: #ffda01;
+	}
+	li a{
+		font-weight: 600;
+	    padding: 10px 34px;
+	    font-size: 16px;
+	    color: #9b9b9b;
+	    float: left;
+	}
+}
+
+li{line-height: 20px;}
+
+.page-tabs li.active a, .page-tabs li.active a:hover, .page-tabs li.active a:focus {
+    font-weight: bold;
+    margin-top: 0px;
+    border-bottom: 0px;
+    color: #000000;
+    float: left;
+}
+
+.page-tabs .border {
+    border: 0px solid #EEEEEE;
+}
+
+.page-tabs .border {
+    height: 1px;
+    border: 1px solid #EEEEEE;
+    background: #FEE020;
+    float: left;
+    width: 100%;
+    margin-top: -1px;
+    z-index: -9999;
+    position: relative;
+}

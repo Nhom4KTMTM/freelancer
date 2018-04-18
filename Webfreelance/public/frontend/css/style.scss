@@ -1,0 +1,19 @@
+.tptt{
+	backround:#d9f3f9 !important;
+	border-radius:3px;
+	padding:2px;
+}
+.menu{
+	margin-bottom:0 !important;
+	.dropdown-menu{
+	margin-top:5px !important;
+}
+}
+.menu2{
+	a{
+	color: #fff;
+	&:hover{
+	background: #000 !important;
+	}
+}
+}

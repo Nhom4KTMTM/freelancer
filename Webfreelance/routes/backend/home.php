@@ -1,0 +1,10 @@
+<?php 
+Route::get('/',[
+	'uses'=>'HomeController@index',
+	'as'=>'backend.home'
+]);
+Route::get('phe-duyet-home/{id}',[
+ 	'uses'=>'HomeController@pheduyet',
+ 	'as'=>'backend.homepheduyet'
+]);
+ ?>
