@@ -1,0 +1,11 @@
+.menu {
+  margin-bottom: 0 !important; }
+  .menu .dropdown-menu {
+    margin-top: 5px !important; }
+
+.menu2 a {
+  color: #fff; }
+  .menu2 a:hover {
+    background: #000 !important; }
+
+/*# sourceMappingURL=style.css.map */
